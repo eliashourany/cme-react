@@ -3,7 +3,7 @@ import { makeSelectLocation } from 'containers/App/selectors';
 describe('makeSelectLocation', () => {
   it('should select the location', () => {
     const router = {
-      location: { pathname: '/foo' },
+      location: { pathname: '/counter' },
     };
     const mockedState = {
       router,

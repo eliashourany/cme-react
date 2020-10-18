@@ -1,0 +1,11 @@
+{
+  "app.components.Header.github": "Utilisateurs Github",
+  "app.components.Header.counter": "Compteur",
+  "app.components.AppCard.learnMore": "Apprendre Encore",
+  "app.containers.Github.search": "Chercher",
+  "app.containers.Github.searchGithub": "Rechercher Des Utilisateurs Github",
+  "app.containers.Github.minChars": "Doit contenir 3 caractères et plus",
+  "app.containers.Github.repos": "Repos pour l'utilisateur",
+  "app.containers.Github.user": "Aucun utilisateur trouvé pour",
+  "app.containers.NotFoundPage.header": "404 Pas Trouvé"
+}

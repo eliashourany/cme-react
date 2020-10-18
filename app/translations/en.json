@@ -1,1 +1,11 @@
-[]
+{
+  "app.components.Header.github": "Github Users",
+  "app.components.Header.counter": "Counter",
+  "app.components.AppCard.learnMore": "Learn More",
+  "app.containers.Github.search": "Search",
+  "app.containers.Github.searchGithub": "Search Github Users",
+  "app.containers.Github.minChars": "Must be 3 characters and up",
+  "app.containers.Github.repos": "Repos For User",
+  "app.containers.Github.user": "No user found for",
+  "app.containers.NotFoundPage.header": "404 Not Found"
+}

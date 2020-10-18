@@ -7,13 +7,23 @@
 
 import React from 'react';
 import { FormattedMessage } from 'react-intl';
-
+import Typography from '@material-ui/core/Typography';
+import { makeStyles } from '@material-ui/core/styles';
 import messages from './messages';
 
+const useStyles = makeStyles(() => ({
+  title: {
+    margin: '80px',
+    textAlign: 'center',
+  },
+}));
+
 export default function NotFound() {
+  const classes = useStyles();
+
   return (
-    <h1>
+    <Typography variant="h4" className={classes.title}>
       <FormattedMessage {...messages.header} />
-    </h1>
+    </Typography>
   );
 }
